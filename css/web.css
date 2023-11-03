@@ -7,7 +7,9 @@
 li {
     list-style: none;
 }
-
+a{
+    text-decoration: none;
+}
 a:hover {
     color: red;
 }
@@ -61,3 +63,17 @@ a:hover {
     margin: 0 auto;
 }
 
+#hd{
+    background-color: green;
+}
+
+#gnb > li{
+    font-size: 2rem;
+    padding: 2rem;
+}
+#gnb > li > ul{
+
+}
+#gnb> li > ul > a{
+    color: white;
+}
