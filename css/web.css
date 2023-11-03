@@ -63,17 +63,38 @@ a:hover {
     margin: 0 auto;
 }
 
+
+#threeBanner >* {
+    width: 33.33%;
+}
+#threeBanner div{
+    border: 1px solid black;
+}
 #hd{
     background-color: green;
 }
-
-#gnb > li{
-    font-size: 2rem;
-    padding: 2rem;
+#hd h1{
+    margin-left: 3rem ;
 }
-#gnb > li > ul{
-
+#gnb>li>a{
+    font-size: 22px;
+    padding: 10px 30px;
+    display: block;
 }
-#gnb> li > ul > a{
-    color: white;
+#gnb ul{
+    background-color: transparent;
+    border: 1px solid transparent;
+    left: 0;
+    right: 0;
+    text-indent: 2rem;
+    max-height: 0;
+    top:100%;
+    overflow: hidden;
+    line-height: 2;
+    transition: 0.5s;
+}
+#gnb > li:hover ul{
+    max-height: 200px;
+    border-color: #333;
+    background-color: white;
 }
